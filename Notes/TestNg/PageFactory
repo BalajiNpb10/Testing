@@ -1,0 +1,6 @@
+@FindBy → single locator ✅
+@FindAll → OR condition ✅
+@FindBys → AND condition
+
+Page Factory is a Selenium design pattern
+used to initialize and manage web elements using @FindBy annotations.

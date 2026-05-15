@@ -1,0 +1,12 @@
+  File folder = new File("screenshots/EvPageOutputs/InValidsSS/");
+        File[] files = folder.listFiles();
+        int count = (files != null) ? files.length + 1 : 1;
+
+        File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        File dest = new File("screenshots/EvPageOutputs/InValidsSS/Output" + count + ".png");
+
+        try {
+            Files.copy(src.toPath(), dest.toPath());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }

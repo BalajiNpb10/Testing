@@ -1,0 +1,102 @@
+TC_04: Verify EV page loads successfully
+Test Scenario
+Verify that the Electric Vehicles page loads correctly when accessed with a valid URL.
+Steps
+
+Open the browser.
+Navigate to https://www.zigwheels.com/electric-vehicles.
+
+Expected Result
+
+The page loads successfully without errors.
+The page title contains “Electric Vehicles”.
+The ZigWheels logo is displayed.
+The top navigation menu is visible on the page.
+
+
+TC_05: Verify top navigation menu links
+Test Scenario
+Verify that all top navigation menu options are available and functional.
+Menu Items
+
+News & Reviews
+New Cars
+New Bikes
+Scooters
+More
+
+Steps
+
+Navigate to the Electric Vehicles page.
+Observe the top navigation menu.
+
+Expected Result
+
+Each menu item is visible.
+Each menu item is enabled.
+Each menu item is clickable.      (Done)
+
+
+TC_06: Verify search bar with valid EV name
+Test Scenario
+Verify the search functionality using a valid Electric Vehicle name.
+Test Data
+
+Input: Ather 450X
+
+Steps
+
+Click on the search bar.
+Enter Ather 450X.
+Press the Enter key.
+
+Expected Result
+
+The search results page is displayed.
+Relevant EV details for Ather 450X are shown  (Done).
+Add; ss     (Done).
+
+
+TC_07: Verify search bar with invalid input
+Test Scenario
+Verify the search functionality using invalid input.
+Test Data
+
+Input: @@@@@
+
+Steps
+
+Click on the search bar.
+Enter @@@@@.
+Press the Enter key.
+
+Expected Result
+
+A proper error message is displayed
+OR
+A “No results found” message is displayed.
+
+
+
+
+✅ EV Scooters / Bikes / Cars Listing Test Cases
+
+TC_08: Verify EV Scooters tab
+Test Scenario
+Verify that the EV Scooters tab displays the list of scooters with required details.
+Steps
+
+Navigate to the Electric Vehicles page.
+Scroll to the scooters and bikes listing section.
+Click on the EV Scooters tab.
+
+Expected Result
+
+The EV Scooters tab is clickable and gets selected.
+Scooter cards are displayed.
+Each scooter card shows:
+
+Image
+Name
+Price
+Range in kilometers (kms)

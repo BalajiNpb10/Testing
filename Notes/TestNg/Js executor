@@ -1,0 +1,13 @@
+Basic Scroll Down (Simple):
+    JavascriptExecutor js = (JavascriptExecutor) driver;
+    js.executeScript("window.scrollBy(0,500)");
+
+
+Scroll to Bottom of Page (Most Used):
+    JavascriptExecutor js = (JavascriptExecutor) driver;
+    js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+
+
+Scroll Until Element is Visible:
+    JavascriptExecutor js = (JavascriptExecutor) driver;
+    js.executeScript("arguments[0].scrollIntoView(true);", element);

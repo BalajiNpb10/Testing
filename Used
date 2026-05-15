@@ -1,0 +1,101 @@
+
+TEstNg  (Why we use TestNG?
+       👉 TestNG use பண்ணுறோம் because:
+
+       ✅ Test cases‑ஐ easy‑ஆ run பண்ணவும் control பண்ணவும் manage பண்ணவும்
+
+
+       ✅ ✅ Main reasons (simple)
+       ✅ 1. Run tests easily
+       👉 @Test use பண்ணி test run பண்ணலாம்
+
+       ✅ 2. Before / After control
+       👉 Browser open / close control:
+
+       @BeforeMethod → setup
+       @AfterMethod → cleanup
+
+
+       ✅ 3. Multiple tests run
+       👉 Many test methods create பண்ணி run பண்ணலாம்
+
+       ✅ 4. Test order control
+       👉 Execute order set பண்ணலாம்:
+
+       priority
+       dependsOnMethods
+
+
+       ✅ 5. Grouping tests
+       👉 Tests‑ஐ separate பண்ணலாம்:
+
+       Smoke
+       Sanity
+       Regression
+
+
+       ✅ 6. Generate report
+       👉 TestNG automatically:
+
+       Pass / Fail report உருவாக்கும் ✅
+
+
+       ✅ 7. Data‑driven testing)
+
+
+pagefactory (Why we use Page Factory?
+            👉 Page Factory use பண்ணுறோம் because:
+
+            ✅ Web elements‑ஐ easy‑ஆ manage பண்ணவும் code clean‑ஆ எழுதவும்
+                Page Factory is used to initialize and manage web elements in a clean, reusable,
+                and maintainable way using @FindBy annotations.
+
+            ✅ ✅ Main reasons (simple)
+            ✅ 1. Easy element handling
+            👉 findElement() repeatedly எழுத வேண்டாம் ❌
+
+            Code clean & readable
+            Reusability
+            Maintain easy
+            Better framework design)
+
+
+
+
+logs (Why logs are used (simple reasons)
+      ✅ 1. To track execution
+      👉 Test run ஆகும்போது என்ன நடக்குத்னு தெரிய:
+      Browser launched
+      Login clicked
+      Page loaded)
+      (Debug problem (MOST IMPORTANT 🔥)
+      👉 Test fail ஆனா:
+
+      எந்த step‑ல fail ஆயிச்சு?
+      என்ன error வந்துச்சு?
+
+      👉 Logs பார்த்து easy‑ஆ கண்டுபிடிக்கலாம் ✅)
+
+
+
+Report- extentReport  (Why we use Extent Report?
+                       👉 We use Extent Report because:
+
+                       ✅ Default report is simple, but Extent report is advanced and easy to understand
+
+
+                       ✅ ✅ Main reasons (simple)
+                       ✅ 1. Clear result (easy view)
+
+                       ✅ Green → Pass
+                       ❌ Red → Fail
+
+                       👉 Easy‑ஆ understand பண்ணலாம்
+
+                       ✅ 2. Professional UI (looks good)
+                       👉 Default report → plain ❌
+                       👉 Extent report → colorful ✅
+                       👉 Client / Manager‑க்கு show பண்ண easy
+
+                       ✅ 3. Step‑by‑step details
+                       👉 Every step show பண்ணலாம்:)

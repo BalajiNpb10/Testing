@@ -1,0 +1,37 @@
+👉 API = Application to Application communication
+
+UI illama
+Request send pannuvom
+Response varum (mostly JSON)
+
+📌 Example:
+Login button click pannina → backend‑ku API call pogum
+
+
+
+🚀 Postman use என்ன செய்வது?
+Postman-ல நீங்க:
+1. GET (Data எடுக்க)
+
+Example: user list fetch பண்ண
+
+GET https://api.example.com/users
+
+
+2. POST (புதிய data create பண்ண)
+
+Example: new user add பண்ண
+
+POST https://api.example.com/users
+
+Body:
+JSON{  "name": "Balaji",  "age": 22}Show more lines
+
+3. PUT / PATCH (Update பண்ண)
+
+Existing data update பண்ண
+
+
+4. DELETE (Delete பண்ண)
+
+Data remove பண்ண

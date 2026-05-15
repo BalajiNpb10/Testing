@@ -1,0 +1,23 @@
+Multiple tests‑ஐ same time‑ல run பண்ணுவது = Parallel Execution
+
+👉 Normally → Tests one by one run ஆகும்
+👉 Parallel → Tests same time‑ல fast‑ஆ run ஆகும்
+
+✅ ஏன் use பண்ணுறோம்?
+
+✅ Time save ஆகும்
+✅ Fast execution
+✅ Multiple browser testing
+
+
+🔹 1️⃣ parallel
+👉 எப்படி run பண்ணணும்னு சொல்லும்
+Types:
+✅ parallel="methods"
+👉 Same class‑ல உள்ள methods ஒன்றாக run ஆகும்
+
+✅ parallel="classes"
+👉 Different classes ஒன்றாக run ஆகும்
+
+✅ parallel="tests"
+👉 Different <test> blocks parallel‑ஆ run ஆகும்

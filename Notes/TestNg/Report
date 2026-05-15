@@ -1,0 +1,21 @@
+✅ Types of Reports (easy)
+
+TestNG Report
+    👉 Default report
+    👉 Pass / Fail காட்டும்
+
+Emailable Report
+    👉 Simple HTML report
+    👉 Mail‑க்கு easy
+
+Extent Report ⭐
+    👉 Colorful report
+    👉 Screenshots, steps எல்லாம் காட்டும்
+
+Allure Report ⭐
+    👉 Advanced report
+    👉 Graph, charts இருக்கும்
+
+Log Report (Log4j)
+    👉 Code logs store பண்ணும்
+    👉 Debug‑க்கு use

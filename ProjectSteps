@@ -1,0 +1,51 @@
+Scenario 1: Identify Upcoming Honda Bikes (< 4 Lakhs)
+Step 01: Launch the Chrome browser using Selenium      (Done)
+Step 02: Navigate to https://www.zigwheels.com (Done)
+Step 03: Maximize the browser window (Done)
+Step 04: From the main menu, click on New Bikes (Done)
+Step 05: Select the Upcoming Bikes option(Done)
+Step 06: Apply filter for Manufacturer → Honda(Done)
+Step 07: Apply price filter Less than 4 Lakhs
+Step 08: Identify only bikes marked as Upcoming
+Step 09: For each listed bike, capture:
+
+        Bike Name
+        Expected Price
+        Expected Launch Date in India
+
+
+Step 10: Store the captured details in a collection (List / Map)
+Step 11: Display the collected bike details in console or report
+Step 12: Navigate back to the home page
+
+
+Scenario 2: Used Cars in Chennai – Popular Models        (Done)
+Step 01: From the ZigWheels home page, click on Used Cars (Done)
+Step 02: Select city as Chennai (Done)
+Step 03: Wait for used car listings page to load  (Done)
+Step 04: Identify the section displaying popular models (Done)
+Step 05: Extract all car model names displayed(Done)
+Step 06: Store the model names in a List(Done)
+Step 07: Print all extracted popular used car models(Done)
+
+Scenario 3: Google Login – Invalid Credentials & Error Message
+Step 01: Click on Login / Sign Up option (Done)
+Step 02: Choose Continue with Google(Done)
+Step 03: Handle the new browser window (switch to Google login window)(Done)
+Step 04: Enter an invalid email ID(Done)
+Step 05: Click Next(Done)
+Step 06: Capture the displayed error / warning message(Done)
+Step 07: Print the error message (Done)
+Step 08: Close the Google login window (Done)
+Step 09: Switch control back to the main ZigWheels window (Done)
+
+Key Automation Concepts Covered
+
+Browser navigation
+Window handling
+Menu interaction
+Form filling
+Capturing validation / error messages
+Storing data in collections
+Navigating back to home page
+

@@ -1,0 +1,50 @@
+We will not use techical term in that  so easy to understanf for client
+
+
+-> BDD =  Behavior Driven Development
+
+        3️⃣ Better collaboration
+
+        TDD → Developer mattum involve
+        BDD (Cucumber) →
+
+        Business
+        Tester
+        Developer
+        ellarum same page‑la irupaanga
+
+
+        1️⃣ Business‑ku easy‑ah puriyum
+
+        TDD → Java code‑la test write pannuvom
+        ❌ Business / client‑ku puriyaadhu
+        Cucumber → English‑la test case
+        ✅ Business, tester, developer ellarum purinjippaanga
+
+        👉 Reason:
+        👉 Business requirement clear‑ah irukanum na → Cucumber best
+
+
+        Readable & Maintainable
+
+        TDD test cases → technical code
+        Cucumber scenarios → plain English
+
+        ✅ New tester vandhaalum easy‑ah understand pannalaam
+        ✅ Maintenance easy
+
+
+
+-> TDD -  Test Driven Development
+
+        TDD (Test Driven Development) na enna?
+        👉 TDD oru software development approach
+        TDD‑la epdi work pannuvom?
+        1️⃣ First test case ezhudhuvom
+        2️⃣ Apram code ezhudhuvom
+        3️⃣ Test pass aagura madhiri code improve pannuvom
+        👉 Normal‑ah:
+
+        First code → apram test
+        👉 TDD‑la:
+        First test → apram code ✅
