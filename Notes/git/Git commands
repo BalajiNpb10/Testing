@@ -1,0 +1,77 @@
+git init
+→ usage: start git in project
+
+git clone <repo-link>   (If other project vennu na)
+→ usage: download project from GitHub
+
+git status
+→ usage: check changes
+
+git add .
+→ usage: add all files
+
+git commit -m "message"
+→ usage: save changes
+
+git push
+→ usage: upload code to GitHub
+
+git pull
+→ usage: get latest code from team
+
+git remote add origin <repo-link>   (other person project ha connect panna)
+→ usage: connect to GitHub
+
+git branch
+→ usage: see branches
+
+git checkout -b branch-name
+→ usage: create new branch
+
+git checkout branch-name
+→ usage: switch branch
+
+git push -u origin branch-name
+→ usage: upload new branch
+
+git merge branch-name
+→ usage: merge branch
+
+
+✅ Daily use (important)
+git pull
+git add .
+git commit -m "work"
+git push
+
+=====================================================================================================
+  if your project want to uplaod
+
+
+
+  # Step 1: Go to project folder
+  cd path/to/your/project
+
+  # Step 2: Start git
+  git init
+  → usage: initialize git
+
+  # Step 3: Add all files
+  git add .
+  → usage: add all project files
+
+  # Step 4: Commit
+  git commit -m "first commit"
+  → usage: save project
+
+  # Step 5: Connect to GitHub
+  git remote add origin https://github.com/username/repo.git
+  → usage: link GitHub repo
+
+  # Step 6: Push code
+  git branch -M main
+  git push -u origin main
+  → usage: upload project to GitHub
+
+
+
